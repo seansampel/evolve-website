@@ -1,0 +1,62 @@
+@import "path/to/font-awesome/less/font-awesome.less";
+
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.navbar {
+  font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-align: left;
+  height: 100%;
+  width: 175px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(30, 28, 28, 0.4);
+  overflow-x:auto;
+  padding-top: 20px;
+}
+.contact {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  background-color: rgba(30, 28, 28, 0.6);
+  border-radius: 5px;
+  margin-left: 24rem;
+  margin-top: 7rem;
+}
+
+textarea {
+  align-content: center;
+}
+.contact-link {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+} 
+.box {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  border: 2px #22254b;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: black;
+  padding: 0.5rem 1.5rem;
+}
+.button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  border: 2px #0b0b0b;
+  border-radius: 5px;
+  background-color: #b5a9a9;
+  color: black;
+  padding: 0.5rem 0.5rem;
+}
